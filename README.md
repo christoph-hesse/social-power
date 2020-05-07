@@ -40,7 +40,10 @@ For instance, you could assign a random propensity for racism while assigning no
 
 ## Usage
 
-Set the simulation parameters in par.py to your liking.
+Set the simulation parameters in par.py.
+
+Decide how much output you want to print to your Python console.
+```python print_rounds = Bool```
 
 Change directory where the .csv file is saved.
 ```python
@@ -48,7 +51,7 @@ import numpy as np
 ```
 
 ```python
-multi_sim2(par,100,'filename',False,True)
+multi_sim2(par,100,'filename_of_csv',False,True)
 ```
 
 ## License and Citation
