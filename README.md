@@ -22,7 +22,7 @@ The simulation's behavior can be controlled through a variety of parameters:
 The population of agents is split into two social groups, and agents who would use oppressive speech (*racists*) occur in only one of the two groups. You can control:
 
 * The number of racists (```N3```) and non-racists (```N1```) in the first group; the number of agents in the second group (```N2```)
-* Bargaining power is set via disagreement points per group and subgroup (```d1``` for group 1, ```d2``` for group 2, ```d3``` for group 3) relative to the reward associated with the 3 possible demands low ```L```, medium ```M```, high ```H```: a higher disagreement point means more bargaining power 
+* Bargaining power is set via disagreement points per group and subgroup (```d1``` for group 1, ```d2``` for group 2, ```d3``` for group 3) relative to the reward associated with the 3 possible demands low ```L```, medium ```M```, high ```H```: a higher disagreement point, closer to one of the possible rewards, means more bargaining power 
 * ```r1```, ```r2```, ```r3``` is groups' propensity for using racist slurs
 * ```pop1```, ```pop2```, ```pop3``` is ow popular the different groups are. More popular agents have more say in updates of bargaining power
 
