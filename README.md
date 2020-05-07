@@ -35,7 +35,7 @@ The simulation and its associated code are released under a Creative Commons Att
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-[comment] <> (If you are using our simulation for research purposes, please cite the following paper:)
+[//] <> (If you are using our simulation for research purposes, please cite the following paper:)
 
 [comment] <> (## References)
 
