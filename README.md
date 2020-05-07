@@ -53,7 +53,7 @@ For instance, you could assign a random propensity for racism while assigning no
 
 3. Decide whether you want to run the simulation once or multiple times
 
-* For a single run of the simulation run this in your Python console. No ```.csv``` output file will be saved:
+* For a single run of the simulation run this in your Python console. No ```.csv``` output file will be saved!
 ```python
 simulate(par)
 ```
@@ -62,11 +62,11 @@ simulate(par)
 ```python
 multi_sim2(par,number_of_runs,'filename_of_csv',False,True)
 ```
-In the root folder of the simulation create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulation without actually saving a ```.csv``` file yet, use
+In the root folder of the simulation create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulations without actually saving a ```.csv``` file yet, use
 ```python
 multi_sim2(par,number_of_runs,'filename_of_csv',True,False)
 ```
-with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten.
+with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten!
 
 ## License and Citation
 
