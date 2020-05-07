@@ -60,11 +60,11 @@ simulate(par)
 
 * For multiple simulations, set the number of simulation runs and decide on a name for your ```.csv``` file. Then call this line in your Python console:
 ```python
-multi_sim2(par,number_of_runs,'filename_of_csv',False,True)
+multi_sim(par,number_of_runs,'filename_of_csv',False,True)
 ```
 In the root folder of the simulation create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulations without actually saving a ```.csv``` file yet, use
 ```python
-multi_sim2(par,number_of_runs,'filename_of_csv',True,False)
+multi_sim(par,number_of_runs,'filename_of_csv',True,False)
 ```
 with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten!
 
