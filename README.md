@@ -33,7 +33,7 @@ When setting the parameters above to characterize and initialize a population of
 * sampled from a power distribution
 * sampled from a uniform random distribution
 
-For instance, you could assign a random propensity for racism while assigning normally distributed, initial disagreement points.
+For instance, you could assign random racist tendencies while assigning normally distributed, initial disagreement points.
 
 Furthermore, you can set:
 
