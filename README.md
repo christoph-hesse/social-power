@@ -28,10 +28,10 @@ The population of agents is split into two social groups, and agents who would u
 
 When setting the parameters above to characterize and initialize a population of agents, you can choose from four sampling methods to assign individual parameter values to agents (```d_sampling```, ```r_sampling```, ```pop_sampling```):
 
-* constant value
-* sampled from a random normal distribution
-* sampled from a power distribution
-* sampled from a uniform random distribution
+* constant values
+* values sampled from a random normal distribution
+* values sampled from a power distribution
+* values sampled from a uniform random distribution
 
 For instance, you could assign random racist tendencies while assigning normally distributed, initial disagreement points.
 
