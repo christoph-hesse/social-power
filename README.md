@@ -58,7 +58,7 @@ For instance, you could assign a random propensity for racism while assigning no
 simulate(par)
 ```
 
-* Set the number of simulation runs to your liking and call this line in your Python console:
+* For multiple simulations, set the number of simulation runs to your liking and call this line in your Python console:
 ```python
 multi_sim2(par,100,'filename_of_csv',False,True)
 ```
