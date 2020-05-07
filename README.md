@@ -4,6 +4,14 @@ This repository holds a simulation of oppressive speech implemented in Python.
 
 It is a multi-agent simulation using a 3-strategy Nash demand game with 1) dynamic updates to bargaining power and 2) belief updates about bargaining power. Oppression is modelled as the reduction of material bargaining power. Oppressive speech, such as slurs, is modelled as updating agents' beliefs about their bargaining power such that they think they are weaker than they actually are.
 
+## Requirements
+
+* Python 3 (tested with version 3.7.4)
+* Python module numpy (tested with version 1.18.1)
+* Python module random
+* Python module csv
+* Python module os
+
 ## Simulation Parameters
 
 The simulation's behavior can be controlled through a variety of parameters:
@@ -29,15 +37,6 @@ For instance, you could assign a random propensity for racism while assigning no
 
 * Whether a final summary of the simulation is printed
 * Who agents can interact with
-
-
-## Requirements
-
-* Python 3 (tested with version 3.7.4)
-* Python module numpy (tested with version 1.18.1)
-* Python module random
-* Python module csv
-* Python module os
 
 ## Usage
 
