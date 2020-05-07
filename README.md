@@ -76,7 +76,7 @@ The simulation and its associated code are released under a Creative Commons Att
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-The ```.csv``` data files are supplementary material, to be used only for instruction, non-commercial educational purposes, and may not be reproduced in any medium without the expressed permission of the authors.
+The ```.csv``` data files are supplementary material, to be used only for instruction and non-commercial educational purposes, and may not be reproduced in any medium without the expressed permission of the authors.
 
 If you are using our simulation for research purposes, please cite the following paper:
 
