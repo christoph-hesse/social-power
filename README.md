@@ -38,12 +38,14 @@ For instance, you could assign a random propensity for racism while assigning no
 * Whether a final summary of the simulation is printed
 * Who agents can interact with
 
+* number of jurors
+
 ## Usage
 
-Set the simulation parameters in par.py.
+Set the simulation parameters in ```par.py```.
 
 Decide how much output you want to print to your Python console.
-```python print_rounds = Bool```
+* ```print_rounds = Bool``` prints a line for each interaction: number of round, agents' indices, their group membership, their memories, their payoff calculation, their best response, their disagreement point before and after the interaction, the increase/decrease in disagreement point prescribed by the jury, whether a slur occured.
 
 Change directory where the .csv file is saved.
 ```python
