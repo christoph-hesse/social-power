@@ -44,7 +44,7 @@ For instance, you could assign a random propensity for racism while assigning no
 
 Set the simulation parameters in ```par.py```.
 
-Decide how much output you want to print to your Python console.
+Also in ```par.py``` decide how much output you want to print to your Python console.
 *  ```print_rounds = Bool``` prints a line for each interaction containing the following information: number of round, agents' indices, their group membership, their memories, their payoff vector, their best response, their disagreement point before and after the interaction, the increase/decrease in disagreement point prescribed by the jury, whether a slur occured.
 
 * ```print_rewards = Bool``` prints a summary at the end of one simulation run containing the following information: the number of times that members of each group made a low, medium or high demand in the game, what best responses they chose based on whether they acted with in-group agents (group 1 amongst themselves ```gr1|1```, group 2 amongst themselves ```gr2|2```) or out-group agents (interaction between group 1 and group 2 ```gr1/2```), the median disagreement points that members of each group hold about their own group and the other group (```d1/2 gr1```, ```d1/2 gr2```), the median demand of racist agents and their disagreement points, the median disagreement points that members of each group hold at the end of the simulation, and their beliefs that they hold about their disagreement point at the end of the simulation, the Nash strategy they have arrived at at the end of the simulation
