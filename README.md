@@ -24,7 +24,7 @@ The population of agents is split into two social groups, and agents who would u
 * The number of racists (```N3```) and non-racists (```N1```) in the first group; the number of agents in the second group (```N2```)
 * Bargaining power is set via disagreement points per group and subgroup (```d1``` for group 1, ```d2``` for group 2, ```d3``` for group 3) relative to the reward associated with the 3 possible demands low ```L```, medium ```M```, and high ```H```: a higher disagreement point, closer to one of the possible rewards, means more bargaining power because then agents have less to loose 
 * ```r1```, ```r2```, ```r3``` is groups' propensity for using racist slurs
-* ```pop1```, ```pop2```, ```pop3``` is ow popular the different groups are. More popular agents have more say in updates of bargaining power
+* ```pop1```, ```pop2```, ```pop3``` is how popular the different groups are. More popular agents have more say in updates of bargaining power
 
 When setting the parameters above to characterize and initialize a population of agents, you can choose from four sampling methods to assign individual parameter values to agents (```d_sampling```, ```r_sampling```, ```pop_sampling```):
 
