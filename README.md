@@ -58,7 +58,7 @@ For instance, you could assign a random propensity for racism while assigning no
 simulate(par)
 ```
 
-* For multiple simulations, set the number of simulation runs and a name for your ```.csv``` file, and call this line in your Python console:
+* For multiple simulations, set the number of simulation runs and decide on a name for your ```.csv``` file, and call this line in your Python console:
 ```python
 multi_sim2(par,number_of_runs,'filename_of_csv',False,True)
 ```
@@ -67,6 +67,8 @@ In the root folder of the simulation create a subfolder called ```csv``` where a
 multi_sim2(par,number_of_runs,'filename_of_csv',True,False)
 ```
 with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten!
+
+4. Load the ```.csv``` files into your favorite statistics software. If you are using R
 
 ## License and Citation
 
