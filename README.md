@@ -5,7 +5,7 @@ This repository holds a simulation of oppressive speech.
 It is a multi-agent simulation using a 3-stratgy Nash demand game with 1) dynamic updates to bargaining power and 2) belief updates about bargaining power. Oppression is modelled as the reduction of material bargaining power. Oppressive speech, such as slurs, is modelled as updating agents' beliefs about their bargaining power such that they think they are weaker than they actually are.
 
 The simulation's behavior can be controlled by a variety of parameters:
-* The population of agents is split into two social groups, and racists who would use oppressive speech occur in only one of the two groups
+* The population of agents is split into two social groups, and agents who would use oppressive speech (*racists*) occur in only one of the two groups
 * The number of racists and non-racists in the first group; the number of agents in the second group
 * Bargaining power is set via disagreement points per group and subgroup: a higher disagreement point means more bargaining power
 
