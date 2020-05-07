@@ -16,12 +16,12 @@ It is a multi-agent simulation using a 3-strategy Nash demand game with 1) dynam
 
 The simulation's behavior can be controlled through a variety of parameters:
 * The population of agents is split into two social groups, and agents who would use oppressive speech (*racists*) occur in only one of the two groups
-* The number of racists and non-racists in the first group; the number of agents in the second group
-* Bargaining power is set via disagreement points per group and subgroup: a higher disagreement point means more bargaining power
-* Groups' propensity for using racist slurs
-* How popular the different groups are. More popular agents have more say in updates of bargaining power
+* The number of racists (```N3```) and non-racists (```N1```) in the first group; the number of agents in the second group (```N2```)
+* Bargaining power is set via disagreement points per group and subgroup (```d1``` for group 1, ```d2``` for group 2, ```d3``` for group 3): a higher disagreement point means more bargaining power
+* ```r1```, ```r2```, ```r3``` is groups' propensity for using racist slurs
+* ```pop1```, ```pop2```, ```pop3``` is ow popular the different groups are. More popular agents have more say in updates of bargaining power
 
-When setting the parameters above to characterize and initialize a population of agents, you can choose from four sampling methods to assign individual parameter values to agents:
+When setting the parameters above to characterize and initialize a population of agents, you can choose from four sampling methods to assign individual parameter values to agents (```d_sampling```, ```r_sampling```, ```pop_sampling```):
 * constant value
 * sampled from a random normal distribution
 * sampled from a power distribution
@@ -29,16 +29,25 @@ When setting the parameters above to characterize and initialize a population of
 
 For instance, you could assign a random propensity for racism while assigning normally distributed, initial disagreement points.
 
+Furthermore, you can set:
 
-* How many past interactions agents remember (memory length)
-* The reward associated with the 3 possible demands: low, medium, high
-* The number of interactions per simulation run (number of trials)
-* Whether the outcome of each interaction is printed
+* How many past interactions agents remember (memory length ```m```)
+* The reward associated with the 3 possible demands: low ```L```, medium ```M```, high ```H```
+* The number of interactions per simulation run (number of ```trials```)
+* ```print_rounds``` Whether the outcome of each interaction is printed
+* ```print_rewards``` Whether a final summary of the simulation is printed
+* Who agents can interact with: 1) only with out-group agents (```method = 'inter'```) or 2) with both in-group and out-group agents (```method = 'both'```)
+* Whether agents have separate memories for in-group and out-group interactions (```group_mem = Bool```)
 
-* Whether a final summary of the simulation is printed
-* Who agents can interact with
+Those agents with racist tendencies (```r3 > 0```) insult out-group agents with odds proportional to their racist tendencies. The simulation has the following parameters for slurring:
 
-* number of jurors
+* Whether slurring happens before agents decide their best response (```slurring = 'before'```) or after (```slurring = 'after'```)
+* How much a slur updates agents' beliefs about their bargaining power (```slur_str```)
+
+An audience witnesses each interaction and acts as a jury with the power to increase or decrease agents' bargaining power based on their behavior in the interaction:
+
+* ```audience_size``` controls the number of jurors
+* ```aud_str``` controls the strength of the jury to reward or sanction agents' behavior
 
 ## Usage
 
