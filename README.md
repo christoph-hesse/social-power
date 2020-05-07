@@ -53,7 +53,7 @@ For instance, you could assign a random propensity for racism while assigning no
 
 3. Decide whether you want to run the simulation once or multiple times
 
-* For a single run of the simulation no ```.csv``` will be saved:
+* For a single run of the simulation no ```.csv``` output file will be saved:
 ```python
 simulate(par)
 ```
