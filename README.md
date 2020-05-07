@@ -4,6 +4,8 @@ This repository holds a simulation of oppressive speech implemented in Python.
 
 It is a multi-agent simulation using a 3-strategy Nash demand game with 1) dynamic updates to bargaining power and 2) dynamic updates to agents' beliefs about their bargaining power. Oppression is modelled as the reduction of material bargaining power. Oppressive speech, such as slurs, is modelled as updating agents' beliefs about their bargaining power such that they think they are weaker than they actually are, which results in modified behavior.
 
+There are two versions of the simulation contained in this repository: ```dynamic_update_1.py``` is a simulation of material racism where racists can take away actual, material power from the oppressed. ```dynamic_update_2.py``` is a simulation of oppressive speech where racists can only use slurs to intimidate the oppressed.
+
 ## Requirements
 
 * Python 3 (tested with version 3.7.4)
@@ -73,7 +75,7 @@ simulate(par)
 ```python
 multi_sim(par,number_of_runs,'filename_of_csv',False,True)
 ```
-In the root folder of the simulation ```dynamic_update_2.py``` create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulations without actually saving a ```.csv``` file yet, use
+In the root folder of the simulations ```dynamic_update_1.py``` and ```dynamic_update_2.py``` create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulations without actually saving a ```.csv``` file yet, use
 ```python
 multi_sim(par,number_of_runs,'filename_of_csv',True,False)
 ```
