@@ -16,8 +16,8 @@ It is a multi-agent simulation using a 3-strategy Nash demand game with 1) dynam
 
 The simulation's behavior can be controlled through a variety of parameters:
 * The number of interactions per simulation run (number of ```trials```)
-* ```print_rounds``` Whether the outcome of each interaction is printed
-* ```print_rewards``` Whether a final summary of the simulation is printed
+* ```print_rounds = Bool``` sets whether the outcome of each interaction is printed
+* ```print_rewards = Bool``` sets whether a final summary of the simulation is printed
 
 The population of agents is split into two social groups, and agents who would use oppressive speech (*racists*) occur in only one of the two groups. You can control:
 
