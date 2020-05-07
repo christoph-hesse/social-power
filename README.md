@@ -40,6 +40,8 @@ For instance, you could assign a random propensity for racism while assigning no
 
 ## Usage
 
+Set the simulation parameters in par.py to your liking.
+
 Change directory where the .csv file is saved.
 ```python
 import numpy as np
