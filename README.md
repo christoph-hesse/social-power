@@ -51,7 +51,7 @@ For instance, you could assign a random propensity for racism while assigning no
 
 * ```print_results = Bool``` prints a tabulated summary of what is written to the ```.csv``` output file containing the following columns: number of agents per group and subgroup, initial disagreement points, slur strength, strength of jurors, the Nash strategy agents in each group arrived at at the end of the simulation, final disagreement points, final beliefs about disagreement points
 
-3. Decide whether you want to run the simulation once or multiple times
+3. Decide whether you want to run the simulation once or multiple times.
 
 * For a single run of the simulation run this in your Python console. No ```.csv``` output file will be saved!
 ```python
