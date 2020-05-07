@@ -43,8 +43,8 @@ Furthermore, you can set:
 
 Those agents with racist tendencies (```r3 > 0```) insult out-group agents with odds proportional to their racist tendencies. The simulation has the following parameters for slurring:
 
-* Whether slurring happens before agents decide their best response (```slurring = 'before'```) or after (```slurring = 'after'```)
 * How much a slur updates agents' beliefs about their bargaining power (```slur_str```)
+* Whether slurring happens before agents decide their best response (```slurring = 'before'```) or after (```slurring = 'after'```)
 
 An audience witnesses each interaction and acts as a jury with the power to increase or decrease agents' bargaining power based on their behavior in the interaction:
 
