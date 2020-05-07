@@ -12,7 +12,7 @@ The simulation's behavior can be controlled by a variety of parameters:
 
 ## Requirements
 
-* Python (tested with version 3.7.4)
+* Python 3 (tested with version 3.7.4)
 * Python module numpy (tested with version 1.18.1)
 * Python module random
 * Python module csv
