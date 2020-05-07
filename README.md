@@ -77,7 +77,7 @@ multi_sim(par,number_of_runs,'filename_of_csv',False,True)
 ```
 In the root folder of the simulations ```dynamic_update_1.py``` and ```dynamic_update_2.py``` create a subfolder called ```csv``` where all ```.csv``` output files will be saved. If you want to test run multiple simulations without actually saving a ```.csv``` file yet, use
 ```python
-multi_sim(par,number_of_runs,'filename_of_csv',True,False)
+multi_sim(par,number_of_runs,'dummy_filename',True,False)
 ```
 with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten!
 
