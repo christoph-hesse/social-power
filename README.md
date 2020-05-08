@@ -81,7 +81,7 @@ multi_sim(par,number_of_runs,'dummy_filename',True,False)
 ```
 with some dummy filename. Keep in mind that ```.csv``` files of the same name will be overwritten!
 
-4. Load the ```.csv``` files into your favorite statistics software. If you are using R, the repository contains an ```.r``` markdown file called ```stats.r```.
+4. Load the ```.csv``` files into your favorite statistics software. If you are using R, the repository contains an ```.r``` markdown file called ```stats.r``` to get you started.
 
 ## License and Citation
 
